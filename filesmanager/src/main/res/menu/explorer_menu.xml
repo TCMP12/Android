@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:filesmanag="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="sort" >
+        <menu>
+            <item android:title="abc" android:id="@+id/m_s_abc"></item>
+            <item android:title="size" android:id="@+id/m_s_size"/>
+            <item android:title="date" android:id="@+id/m_s_date"></item>
+            <item android:title="abc end"></item>
+        </menu>
+    </item>
+    <group android:id="@+id/m_g_paste">
+        <item android:id="@+id/m_paste" android:title="paste"></item>
+    </group>
+    <item android:id="@+id/shared"  android:title="title" />
+</menu>
